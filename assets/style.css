@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    display: block;
+    background-color: #ff5c50;
+}
+.navigation li{
+    float: left;
+    list-style-type: none;
+    padding: 14px;
+    background-color: #ff5c50;
+    font-family: 'Open Sans', sans-serif;
+}
+.navigation li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navigation li:nth-child(1){
+    background-color: white;
+}
+.navigation li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.navigation li a:hover{
+    color: black;
+}
+
+.strtpage{
+    background-color: #f74538;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.strtpage>p{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    letter-spacing: 5px;
+}
+.strtpage>h4{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    letter-spacing: 2px;
+}
+.strtpage>button{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.ancore{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.ancore>h3{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+}
+.ancore>span{
+    position: absolute;
+    margin-top: 45px;
+    font-size: 17px;
+    width: 700px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+.ancore>img{
+    height: 150px;
+    float: right;
+    margin-right: 20%;
+}
+.anchorlorem{
+    position: absolute;
+    margin-top: 45px;
+    font-size: 17px;
+    width: 700px;
+    font-family: 'Quicksand', sans-serif;
+}
+.cup{
+    margin-top: 30%;
+}
+.cup>img{
+    height: 200px;
+    margin-left: 12%;
+}
+.cup>h3{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Quicksand' ,sans-serif;
+    float: right;
+    margin-right: 53%;
+}
+.cup>span{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 17px;
+    width: 700px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin-left: 5.5%;
+}
+.container{
+    width: 100%;
+    height: 300px;
+    background-color: #666;
+    position: relative;
+}
+.container>h2{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+.footer{
+    margin-top:10%;
+}
+.footer a img{
+    height: 24px;
+    position: absolute;
+    left: 42%;
+    transform: translate(-50%, -50%);
+}
+.power{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #666;
+    font-family: 'Quicksand', sans-serif;
+}
+.power a{
+    color: #666;
+    font-family: 'Quicksand', sans-serif;
+}
